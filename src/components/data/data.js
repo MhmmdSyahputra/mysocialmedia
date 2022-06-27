@@ -217,6 +217,7 @@ export const msg = [{
 
 // DATA MYACOUNT
 export const profilku = [{
+    sampul: 'https://cdn.discordapp.com/attachments/972198684550897696/990986910363160626/film_pixarweek_42.jpg',
     profil: 'https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
     nama: 'Athena',
     username: 'My Team Athena',

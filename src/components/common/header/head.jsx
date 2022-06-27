@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { nav } from '../../data/data'
 import { Link } from "react-router-dom";
 import { profilku } from '../../data/data';
-// import { AiOutlineHome, AiOutlineMessage, AiOutlineSetting } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineMessage, AiOutlineSetting } from 'react-icons/ai'
 
 export default class NavleftComponent extends Component {
     render() {
@@ -30,15 +30,21 @@ export default class NavleftComponent extends Component {
 
 
 
-                        <div className="menu-left active">
+                        <div className="menu-left active ms-4">
                             <ul style={{ listStyle: 'none' }} className='text-start'>
-                                {nav.map((list, index) => (
 
-                                    <Link key={index} to={list.path} className='link-menu'>
-                                        <li >{list.text}</li>
-                                    </Link>
 
-                                ))}
+                                <Link to='/' className='link-menu'>
+                                    <li> <AiOutlineHome className='fs-4 me-3' /> Home</li>
+                                </Link>
+                                <Link to='/message' className='link-menu'>
+                                    <li ><AiOutlineMessage className='fs-4 me-3' /> Massege</li>
+                                </Link>
+                                <Link to='/setting' className='link-menu'>
+                                    <li ><AiOutlineSetting className='fs-4 me-3' /> Setting</li>
+                                </Link>
+
+
                             </ul>
                         </div>
                         <div className="copyright" style={{ marginTop: '20vh' }}>

@@ -23,43 +23,52 @@ export default class Setting extends Component {
                                     <hr />
                                 </span>
 
+                                {/* DATA DATA MENU IN SETTING */}
                                 <div className="row d-flex justify-content-center">
 
+                                    {/* FRIENDS */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><FaUserFriends /></div>
                                         <div className='title-menu fs-4'>Friends</div>
                                     </div>
 
+                                    {/* GROUP */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><HiUserGroup /></div>
                                         <div className='title-menu fs-4'>Group</div>
                                     </div>
 
+                                    {/* MARKET */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><SiHomeassistantcommunitystore /></div>
                                         <div className='title-menu fs-4'>Market Place</div>
                                     </div>
 
+                                    {/* WATCH */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><MdOutlineLiveTv /></div>
                                         <div className='title-menu fs-4'>Watch</div>
                                     </div>
 
+                                    {/* RELLS */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><BiMoviePlay /></div>
                                         <div className='title-menu fs-4'>Reels</div>
                                     </div>
 
+                                    {/* EVENT */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><MdEvent /></div>
                                         <div className='title-menu fs-4'>Event</div>
                                     </div>
 
+                                    {/* GAME */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><FaGamepad /></div>
                                         <div className='title-menu fs-4'>Game</div>
                                     </div>
 
+                                    {/* JOB */}
                                     <div className="col-5 shadow menu-setting ps-4 p-2 m-3">
                                         <div className='icon-menu display-4'><MdOutlineWork /></div>
                                         <div className='title-menu fs-4'>Job</div>
