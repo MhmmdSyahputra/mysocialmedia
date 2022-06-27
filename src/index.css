@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  border-radius: 30px;
+}
+
+.content{
+  border-radius: 30px;
+  background-color: #8f1b1b;
+  margin-left:40vh
+}
+
+.nav-left{
+  margin-left: -2vh;
+  background: #9BB0A9;
+  height: 100vh;
+}
+
+
+.menu-left .link-menu{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-left li{
+  padding: 10px;
+  padding-left: 30px;
+  margin-left: -15%;
+  width: 125%;
+}
+
+.menu-left .link-menu :hover{
+  background-color: #282A35;
+  color: #9BB0A9;
+  border-bottom-right-radius: 20px;
+  border-radius: 10px;
+}
+
+.icon {
+  outline: none;
+  background-color: #f0f0f0;
+  width: 25px;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.wrapper {
+  border-radius: 30px;
+  max-width: 100%;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0px;      
+}
+
+.img-story{
+  padding: 2.2px;
+  background: rgb(125,147,149);
+  background: linear-gradient(39deg, rgba(125,147,149,1) 43%, rgba(0,246,255,1) 61%);
+}
+
+.wrapper .item {
+  min-width: 90px;
+  line-height: 110px;
+  margin-right: 0px;
+}
+.story {
+  height: 115px;
+}
+
+/* SETTING */
+.menu-setting{
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.menu-setting:hover{
+  transform: scale(1.1);
+}
+
+/* PROFILE */
+.profile .myprofile{
+  background-color: #9BB0A9;
+  padding: 10px;
+}
