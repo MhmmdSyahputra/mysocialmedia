@@ -9,6 +9,7 @@ import { MdOutlineLiveTv, MdEvent, MdOutlineWork } from "react-icons/md";
 import { BiMoviePlay } from "react-icons/bi";
 import { RiUserSettingsFill } from "react-icons/ri";
 import { IoIosHelpCircle } from "react-icons/io";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default class Setting extends Component {
     render() {
@@ -19,7 +20,7 @@ export default class Setting extends Component {
                         <div className="container">
                             <Card className='content mb-4 p-5' style={{ width: '50rem', marginTop: '100px', borderRadius: '30px', backgroundColor: '#9BB0A9' }}>
                                 <span className='mb-5'>
-                                    <span className="fs-4 text-start">Menu</span>
+                                    <h2 className="fs-4 text-start text-light"><AiOutlineMenu className='me-3 fs-1' />Menu</h2>
                                     <hr />
                                 </span>
 

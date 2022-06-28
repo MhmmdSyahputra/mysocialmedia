@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import { profilku } from '../../data/data';
 import { AiOutlineHome, AiOutlineMessage, AiOutlineSetting } from 'react-icons/ai'
+import { MdOutlineExplore } from 'react-icons/md'
 
 export default class NavleftComponent extends Component {
     render() {
@@ -38,6 +39,9 @@ export default class NavleftComponent extends Component {
                                 </Link>
                                 <Link to='/message' className='link-menu'>
                                     <li ><AiOutlineMessage className='fs-4 me-3' /> Massege</li>
+                                </Link>
+                                <Link to='/explore' className='link-menu'>
+                                    <li ><MdOutlineExplore className='fs-4 me-3' /> Explore</li>
                                 </Link>
                                 <Link to='/setting' className='link-menu'>
                                     <li ><AiOutlineSetting className='fs-4 me-3' /> Setting</li>

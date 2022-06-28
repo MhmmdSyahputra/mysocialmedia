@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { Card } from "react-bootstrap";
 import { msg } from './data/data';
 
-export default class Messege extends Component {
+export default class Message extends Component {
   render() {
     return (
       <Fragment>

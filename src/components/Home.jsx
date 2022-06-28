@@ -58,8 +58,6 @@ export default class Home extends Component {
   render() {
     return (
       <Fragment>
-
-
         <div className="content col-md-13 mb-2 d-flex justify-content-center ms-5 mt-4" style={{ marginLeft: '100vh' }}>
           <div className="row">
             <div className="container">

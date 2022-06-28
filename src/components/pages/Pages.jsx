@@ -1,11 +1,13 @@
 import React from "react"
 import Header from "../common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Home from "../Home"
-import Messege from '../Messege'
+
 import Setting from "../Setting"
 import myAccount from "../myAccount"
 import Post from "../Post"
+import AllExplore from "../explore/AllExplore"
+import OneItem from "../explore/OneItem"
+import Message from "../Message"
 
 const Pages = () => {
   return (
@@ -14,9 +16,11 @@ const Pages = () => {
         <Header />
         <Switch>
           <Route exact path='/' component={Post} />
-          <Route exact path='/message' component={Messege} />
+          <Route exact path='/message' component={Message} />
           <Route exact path='/setting' component={Setting} />
           <Route exact path='/myprofile' component={myAccount} />
+          <Route exact path='/explore' component={AllExplore} />
+          <Route exact path='/explore/:id' component={OneItem} />
         </Switch>
       </Router>
     </>

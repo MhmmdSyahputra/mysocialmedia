@@ -10,22 +10,25 @@ export default class Post extends Component {
     return (
       <Fragment>
         <div className="container">
+          <h2 className='text-light mb-2' style={{ marginLeft: '45vh', marginTop: '100px' }}>Story</h2>
           <div className="row">
             <div className=" col-md-12">
               <Story />
             </div>
           </div>
+          <h2 className='text-light mb-2' style={{ marginLeft: '45vh', marginTop: '100px' }}>Feeds</h2>
         </div>
 
-        {posts.map((list, index) => (
-          <>
-            <div className="col-sm-6 col-lg-4 mb-4" style={{ marginLeft: '67vh' }}>
-              <Home data={list} />
-            </div>
-          </>
-        ))
+        {
+          posts.map((list, index) => (
+            <>
+              <div className="col-sm-6 col-lg-4 mb-4" style={{ marginLeft: '67vh' }}>
+                <Home data={list} />
+              </div>
+            </>
+          ))
         }
-      </Fragment>
+      </Fragment >
     )
   }
 }
