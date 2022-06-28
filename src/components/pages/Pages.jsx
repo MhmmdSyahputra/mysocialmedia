@@ -5,6 +5,7 @@ import Home from "../Home"
 import Messege from '../Messege'
 import Setting from "../Setting"
 import myAccount from "../myAccount"
+import Post from "../Post"
 
 const Pages = () => {
   return (
@@ -12,7 +13,7 @@ const Pages = () => {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={Post} />
           <Route exact path='/message' component={Messege} />
           <Route exact path='/setting' component={Setting} />
           <Route exact path='/myprofile' component={myAccount} />

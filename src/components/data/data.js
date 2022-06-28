@@ -22,6 +22,7 @@ export const posts = [{
         username: 'Mikroskil',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990874727918731294/mikroskil.jpg',
         caption: 'Info Pendaftaran',
+        likes: Math.floor(Math.random() * 400)
     },
 
     {
@@ -31,6 +32,7 @@ export const posts = [{
         username: 'ME',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990855821401419786/unknown_1.jpg',
         caption: 'Info Pendaftaran Tournament cek link berikut https://bit.ly/reg-wmdt-me ',
+        likes: Math.floor(Math.random() * 400)
     },
     {
         id: 3,
@@ -39,6 +41,7 @@ export const posts = [{
         username: 'wahyu_lubis',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990860570079146034/wahyu_lubis20.jpg',
         caption: 'Hidup itu terlalu singkat utk menunggu',
+        likes: Math.floor(Math.random() * 400)
     },
 
     {
@@ -48,6 +51,7 @@ export const posts = [{
         username: 'cabaca',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990861243537559572/cabacaapp.jpg',
         caption: 'Yang masih insecure sama tulisannya sendiri dan takut gak ada yang baca, sini kumpul-kumpul! ',
+        likes: Math.floor(Math.random() * 400)
     },
 
     {
@@ -57,6 +61,7 @@ export const posts = [{
         username: 'anime.onsen',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990861548731920384/anime.onsen.jpg',
         caption: 'Broadband Choices baru-baru ini mengumpulkan data dari Google tentang serial anime paling populer di seluruh dunia',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -66,6 +71,7 @@ export const posts = [{
         username: 'ninja_webtech',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990861789539487754/ninja_webtech.jpg',
         caption: 'Please note that some of these methods are more complicated than others. And some may be simple in the examples Ive included but have much more complicated uses',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -75,6 +81,7 @@ export const posts = [{
         username: 'deluxeweb',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990862080573845534/deluxewebsite.jpg',
         caption: 'Awesome website design concept',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -84,6 +91,7 @@ export const posts = [{
         username: 'demibumi.id',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990862292050657330/demibumi.id.jpg',
         caption: 'Tempe dikenal sebagai pangan yang dekat dengan masyarakat Indonesia, sajian plant-based terjangkau ini tak hanya kaya akan nutrisi namun juga dinilai sebagai makanan sustainable!',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -93,6 +101,7 @@ export const posts = [{
         username: 'faktadanfenomena',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990862651494117426/faktadanfenomena.jpg',
         caption: 'Baru tau 😅 Bagaimana menurutmu? Like komen dan Share ke teman kalian gaes ❤',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -102,6 +111,7 @@ export const posts = [{
         username: 'codec.sam',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990863078570737664/codes.sam.jpg',
         caption: 'Everything is data structures and algorithms. Why are you storing your data in a list instead of a dictionary? Why are you indexing your database?',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -111,6 +121,7 @@ export const posts = [{
         username: 'gramatikal',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990863357307416617/grammatikal.jpg',
         caption: 'Nama Amberd Heard memang mencuat di publik usai berita berseteru dengan mantan suaminya, Johnny Deep. Mungkin, ada dua kubu publik soal pendapat tentang kepribadian Amber Heard',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -120,6 +131,7 @@ export const posts = [{
         username: 'mikroskil_wingchun',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990854802135195719/mikroskil_wingchun.jpg',
         caption: 'Halo sobat Mikroskil ! Mikroskil Wingcun Club sedang mencari member baru loh.',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -129,6 +141,7 @@ export const posts = [{
         username: 'MSC',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990855014404739082/mikroskilsingingclub.jpg',
         caption: 'Selamat Hari Suci Waisak 2566 BE bagi teman-teman umat buddhis..',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -138,6 +151,7 @@ export const posts = [{
         username: 'kreavii',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990863680243650601/kreavi.jpg',
         caption: 'Selamat Hari Ulang Tahun Jakarta ke-495!',
+        likes: Math.floor(Math.random() * 400),
     },
 
     {
@@ -147,6 +161,7 @@ export const posts = [{
         username: 'pejuangnikahmuda',
         img: 'https://cdn.discordapp.com/attachments/972198684550897696/990864162513121340/pejuangnikahmuda.jpg',
         caption: 'Assalamualaikum Wr.Wb Halo sobat mikro Dalam kegiatan bulan Ramadhan ini IMSI  KMI akan mengadakan sebuah kegiatan yaitu berbagi takjil berkah.',
+        likes: Math.floor(Math.random() * 400),
     }
 ]
 // DATA PESAN

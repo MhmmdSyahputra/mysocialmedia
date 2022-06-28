@@ -15,10 +15,14 @@ code {
   border-radius: 30px;
 }
 
+/* CONTENT HOME */
 .content{
   border-radius: 30px;
-  background-color: #8f1b1b;
   margin-left:40vh
+}
+
+.icon-posts{
+  cursor: pointer;
 }
 
 .nav-left{
@@ -36,8 +40,8 @@ code {
 .menu-left li{
   padding: 10px;
   padding-left: 30px;
-  margin-left: -15%;
-  width: 125%;
+  margin-left: -65px;
+  width: 150%;
 }
 
 .menu-left .link-menu :hover{
@@ -81,6 +85,7 @@ code {
 }
 .story {
   height: 115px;
+  margin-left: 400vh;
 }
 
 /* SETTING */

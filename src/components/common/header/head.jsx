@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { nav } from '../../data/data'
 import { Link } from "react-router-dom";
 import { profilku } from '../../data/data';
 import { AiOutlineHome, AiOutlineMessage, AiOutlineSetting } from 'react-icons/ai'
@@ -47,13 +46,20 @@ export default class NavleftComponent extends Component {
 
                             </ul>
                         </div>
-                        <div className="copyright" style={{ marginTop: '20vh' }}>
-                            <h6 className='fs-6 text-muted m-auto'>Copyight&copy; teamAthena</h6>
-                        </div>
+
+
 
                     </div>
 
 
+                </div>
+                <div className="row fixed-bottom ms-5">
+                    <div className="col-md-3 fixed-bottom">
+                        <div className="copyright mb-4 me-3">
+                            <hr />
+                            <h6 className=' text-muted' style={{ fontSize: '0.9em' }}>Copyright&copy; TeamAthena</h6>
+                        </div>
+                    </div>
                 </div>
 
             </div >

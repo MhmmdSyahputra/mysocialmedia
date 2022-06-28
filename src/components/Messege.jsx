@@ -23,25 +23,25 @@ export default class Messege extends Component {
                     {msg.map((list, index) => (
 
                       // FOTO PROFIL
-                      <div className="row mb-4">
-                        <div className='col-1'>
-                          <img src={list.profil} alt="" width='60' className="rounded-circle border border-white bg-light me-4" />
+                      <div className="row mb-3 " style={{ borderBottom: '1px solid #282A35' }}>
+                        <div className='col-1 '>
+                          <img src={list.profil} alt="" width='60' className="mb-3 rounded-circle border border-white bg-light me-4" />
                         </div>
 
                         {/* TEXT RIGHT IN PROFIL */}
-                        <div div className="col ms-5 m-auto" >
+                        <div div className="col ms-5 m-auto mb-4" >
                           <div className="name-title fs-6">{list.nama}</div>
                           <div className="name-text fs-6 text-muted">{list.pesan} </div>
                         </div>
 
                         {/* ONLINE/OFFLINE */}
-                        <div className="col-2 m-auto">
+                        <div className="col-2 py-3">
                           <div className="name-title fs-6 text-end"
                             style={{ color: list.keterangan === "online" ? "green" : "#516762" }}
                           >{list.keterangan}</div>
                         </div>
-
                       </div>
+
                     ))}
                   </div>
                 </div>
