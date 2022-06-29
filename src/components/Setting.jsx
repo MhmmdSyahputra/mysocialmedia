@@ -83,26 +83,18 @@ export default class Setting extends Component {
                                     <Accordion.Item eventKey="0" className='mb-3' shadow>
                                         <Accordion.Header> <RiUserSettingsFill className='fs-2 me-3' /> Settings & Pricacy</Accordion.Header>
                                         <Accordion.Body>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum.
+                                            This Privacy Policy describes Our polices and procedures on the collection, use and disclosure
+                                            of Your information when You use the Service and tells You about Your privacy right and how the law
+                                            protects You. We use Your Personal Data to provide and improve the Service. By using the Service, You
+                                            agree to the collection and use of information in accordance with this Privacy Policy.
                                         </Accordion.Body>
                                     </Accordion.Item>
 
                                     <Accordion.Item eventKey="1" className='mb-3 shadow'>
                                         <Accordion.Header><IoIosHelpCircle className='fs-2 me-3' />Help & Support</Accordion.Header>
                                         <Accordion.Body>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum.
+                                            If you have any problen or any question you can contact us by our Support.
+                                            Email us at athenapp@support.com
                                         </Accordion.Body>
                                     </Accordion.Item>
 

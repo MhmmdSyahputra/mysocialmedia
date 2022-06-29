@@ -5,10 +5,10 @@ import { BsChat, BsShare } from "react-icons/bs";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { BsBookmark, BsFillBookmarkCheckFill } from "react-icons/bs";
 import { FcLike } from "react-icons/fc";
-import { useNavigate } from 'react-router-dom';
 import toast from 'siiimple-toast';
 import 'siiimple-toast/dist/style.css';// style required
 import { posts } from '../data/data';
+import { Link } from 'react-router-dom';
 
 
 export default class OneItem extends Component {
@@ -58,15 +58,15 @@ export default class OneItem extends Component {
         <div className="content col-md-13 mb-2 d-flex justify-content-center ms-5 mt-4" style={{ marginLeft: '100vh' }}>
           <div className="row">
             <div className="container">
-              <h2 className='text-light mb-5' to='/explore' style={{ marginLeft: '40vh', marginTop: '100px', cursor: 'pointer' }}>
-                <IoMdArrowRoundBack className='me-3 fs-1' />Back
+              <h2 className='text-light mb-5' style={{ marginLeft: '40vh', marginTop: '100px', cursor: 'pointer' }}>
+                <Link to='/explore' className='text-decoration-none' style={{ color: '#F8F9FA', }}><IoMdArrowRoundBack className='me-3 fs-1' />Back</Link>
               </h2>
               {/* SUSUN DATA POSTINGAN */}
               {
                 posts
                   .filter(post => post.id == this.state.id)
                   .map(post =>
-                    <Card className='content mb-4' style={{ width: '50rem', borderRadius: '30px', backgroundColor: '#9BB0A9' }}>
+                    <Card className='content mb-4' style={{ width: '40rem', borderRadius: '30px', backgroundColor: '#9BB0A9' }}>
                       {/* BAGIAN PROFIL SI PEMOSTING DAN NAMA NYA */}
                       <Card.Title className='text-start mb-3 ms-5 m-2 fs-5'>
                         <div className="row">

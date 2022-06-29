@@ -16,7 +16,7 @@ export default class Post extends Component {
               <Story />
             </div>
           </div>
-          <h2 className='text-light mb-2' style={{ marginLeft: '45vh', marginTop: '100px' }}>Feeds</h2>
+          <h2 className='text-light mb-2 mt-2' style={{ marginLeft: '45vh' }}>Feeds</h2>
         </div>
 
         {

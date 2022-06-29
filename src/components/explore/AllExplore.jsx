@@ -23,7 +23,7 @@ const AllExplore = () => {
                             <div className="row pt-3 pb-3">
                                 {posts.map((list, index) => (
                                     <div className="col-3 mx-4 m-1 me-4" style={{ marginLeft: '30px', paddingRight: '0' }}>
-                                        <img onClick={() => jalan(index + 1)} src={list.img} alt="" width='250' className="border border-dark" style={{ borderRadius: '20px' }} />
+                                        <img onClick={() => jalan(index + 1)} src={list.img} alt="" width='250' className="border border-dark img-explore" />
                                     </div>
                                 ))}
 

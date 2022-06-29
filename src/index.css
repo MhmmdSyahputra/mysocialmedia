@@ -84,8 +84,17 @@ code {
   margin-right: 0px;
 }
 .story {
-  height: 125px;
+  height: 150px;
   margin-left: 400vh;
+}
+
+/* EXPLORE */
+.img-explore{
+border-radius: 20px;
+cursor: pointer;
+}
+.img-explore:hover{
+  transform: scale(0.9);
 }
 
 /* SETTING */

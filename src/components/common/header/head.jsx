@@ -37,11 +37,11 @@ export default class NavleftComponent extends Component {
                                 <Link to='/' className='link-menu'>
                                     <li> <AiOutlineHome className='fs-4 me-3' /> Home</li>
                                 </Link>
-                                <Link to='/message' className='link-menu'>
-                                    <li ><AiOutlineMessage className='fs-4 me-3' /> Massege</li>
-                                </Link>
                                 <Link to='/explore' className='link-menu'>
                                     <li ><MdOutlineExplore className='fs-4 me-3' /> Explore</li>
+                                </Link>
+                                <Link to='/message' className='link-menu'>
+                                    <li ><AiOutlineMessage className='fs-4 me-3' /> Massege</li>
                                 </Link>
                                 <Link to='/setting' className='link-menu'>
                                     <li ><AiOutlineSetting className='fs-4 me-3' /> Setting</li>
