@@ -17,10 +17,9 @@ export default class Home extends Component {
       img: this.props.data.img,
       caption: this.props.data.caption,
       likes: this.props.data.likes,
+      coments: this.props.data.coments,
       flag1: true,
-      flag2: true,
-      totlike: ''
-
+      flag2: true
     };
     this.like = this.like.bind(this);
     this.simpan = this.simpan.bind(this);
@@ -88,7 +87,7 @@ export default class Home extends Component {
                     <Row>
 
                       {/* LIKE */}
-                      <Col className='text-center'>
+                      <Col className='text-center effect'>
                         <span className="fs-4 me-3 icon-posts" onClick={this.like}>
                           {this.state.flag1 ? <AiOutlineHeart /> : <FcLike />}
                           <span className='fs-6 ms-2' >
@@ -99,20 +98,20 @@ export default class Home extends Component {
                       </Col>
 
                       {/* COMMENT */}
-                      <Col className='text-center'>
+                      <Col className='text-center effect'>
                         <span className="fs-4 icon-posts">
                           <BsChat />
-                          <span className='fs-6 ms-2'></span>
+                          <span className='fs-6 ms-2'>{this.state.coments}</span>
                         </span>
                       </Col>
 
                       {/* SHARE */}
-                      <Col className='text-center'>
+                      <Col className='text-center effect'>
                         <span className="fs-4 icon-posts"><BsShare /></span>
                       </Col>
 
                       {/* SIMPAN */}
-                      <Col className='text-center'>
+                      <Col className='text-center effect'>
                         <span className="fs-4 icon-posts" onClick={() => this.simpan(this.state.nama)}>
                           {this.state.flag2 ? <BsBookmark /> : < BsFillBookmarkCheckFill />}
                         </span>

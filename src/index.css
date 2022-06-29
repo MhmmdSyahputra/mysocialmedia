@@ -11,10 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* HEADER */
 .header{
   border-radius: 30px;
 }
 
+.menu-left .link-menu{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-left li{
+  padding: 10px;
+  padding-left: 30px;
+  margin-left: -65px;
+  width: 150%;
+}
+
+.link-profile{
+  width: 2000px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.effect:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.effect {
+  transition: transform .5s ease;
+}
+
+.effect:hover:active {
+  transform: scale(0.95);
+}
 /* CONTENT HOME */
 .content{
   border-radius: 30px;
@@ -32,24 +64,8 @@ code {
 }
 
 
-.menu-left .link-menu{
-  text-decoration: none;
-  color: black;
-}
 
-.menu-left li{
-  padding: 10px;
-  padding-left: 30px;
-  margin-left: -65px;
-  width: 150%;
-}
 
-.menu-left .link-menu :hover{
-  background-color: #282A35;
-  color: #9BB0A9;
-  border-bottom-right-radius: 20px;
-  border-radius: 10px;
-}
 
 .icon {
   outline: none;
@@ -60,6 +76,8 @@ code {
   cursor: pointer;
 }
 
+
+/* STORY */
 .wrapper {
   border-radius: 30px;
   max-width: 100%;
@@ -78,6 +96,16 @@ code {
   background: linear-gradient(39deg, rgba(125,147,149,1) 43%, rgba(0,246,255,1) 61%);
 }
 
+
+.img-story:hover {
+  transform: scale(1.1);
+}
+
+.img-story {
+  transition: transform .5s ease;
+}
+
+
 .wrapper .item {
   min-width: 90px;
   line-height: 110px;
@@ -93,19 +121,39 @@ code {
 border-radius: 20px;
 cursor: pointer;
 }
-.img-explore:hover{
-  transform: scale(0.9);
+
+.img-hover {
+  height: 100%; /* Modify this according to your need */
+  /* overflow: hidden; */
 }
+
+.img-hover img:hover:active {
+  transform: scale(0.95);
+}
+.img-hover img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover:hover img {
+  transform: scale(1.1);
+}
+
 
 /* SETTING */
 .menu-setting{
   border-radius: 30px;
   background-color: #f0f0f0;
   cursor: pointer;
+  transition: transform .5s ease;
 }
 
 .menu-setting:hover{
   transform: scale(1.1);
+}
+
+.menu-setting:hover:active {
+  transform: scale(0.95);
 }
 
 /* PROFILE */

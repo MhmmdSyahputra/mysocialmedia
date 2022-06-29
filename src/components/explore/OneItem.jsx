@@ -7,7 +7,7 @@ import { BsBookmark, BsFillBookmarkCheckFill } from "react-icons/bs";
 import { FcLike } from "react-icons/fc";
 import toast from 'siiimple-toast';
 import 'siiimple-toast/dist/style.css';// style required
-import { posts } from '../data/data';
+import { explore } from '../data/data';
 import { Link } from 'react-router-dom';
 
 
@@ -63,19 +63,19 @@ export default class OneItem extends Component {
               </h2>
               {/* SUSUN DATA POSTINGAN */}
               {
-                posts
+                explore
                   .filter(post => post.id == this.state.id)
                   .map(post =>
                     <Card className='content mb-4' style={{ width: '40rem', borderRadius: '30px', backgroundColor: '#9BB0A9' }}>
                       {/* BAGIAN PROFIL SI PEMOSTING DAN NAMA NYA */}
                       <Card.Title className='text-start mb-3 ms-5 m-2 fs-5'>
                         <div className="row">
-                          <div className="col-1">
-                            <img src={post.profil} width='50' className="rounded-circle border border-white bg-light me-4" alt="" />
+                          <div className="col-1 me-3">
+                            <img src={post.profil} width='50' className="rounded-circle border border-white bg-light " alt="" />
                           </div>
                           <div className="col m-auto">
                             {post.nama}
-                            <div className="text-muted" style={{ fontSize: '0.6em' }}>2 hour ago</div>
+                            <div className="text-muted" style={{ fontSize: '0.6em' }}>{Math.floor(Math.random() * 24)} hour ago</div>
                           </div>
                         </div>
                       </Card.Title>
@@ -104,13 +104,17 @@ export default class OneItem extends Component {
                             <Col className='text-center'>
                               <span className="fs-4 icon-posts">
                                 <BsChat />
-                                <span className='fs-6 ms-2'></span>
+                                <span className='fs-6 ms-2'>
+                                  {post.coments}
+                                </span>
                               </span>
                             </Col>
 
                             {/* SHARE */}
                             <Col className='text-center'>
-                              <span className="fs-4 icon-posts"><BsShare /></span>
+                              <span className="fs-4 icon-posts">
+                                <BsShare />
+                              </span>
                             </Col>
 
                             {/* SIMPAN */}

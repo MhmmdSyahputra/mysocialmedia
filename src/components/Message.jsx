@@ -23,7 +23,7 @@ export default class Message extends Component {
                     {msg.map((list, index) => (
 
                       // FOTO PROFIL
-                      <div className="row mb-3 " style={{ borderBottom: '1px solid #282A35' }}>
+                      <div className="row mb-3 effect" style={{ borderBottom: ' 0.8px solid #282A35' }}>
                         <div className='col-1 '>
                           <img src={list.profil} alt="" width='60' className="mb-3 rounded-circle border border-white bg-light me-4" />
                         </div>
