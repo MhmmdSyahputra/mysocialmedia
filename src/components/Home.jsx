@@ -17,7 +17,7 @@ export default class Home extends Component {
       img: this.props.data.img,
       caption: this.props.data.caption,
       likes: this.props.data.likes,
-      coments: this.props.data.coments,
+      coments: this.props.data.likes,
       flag1: true,
       flag2: true
     };
@@ -87,7 +87,7 @@ export default class Home extends Component {
                     <Row>
 
                       {/* LIKE */}
-                      <Col className='text-center effect'>
+                      <Col className='text-center'>
                         <span className="fs-4 me-3 icon-posts" onClick={this.like}>
                           {this.state.flag1 ? <AiOutlineHeart /> : <FcLike />}
                           <span className='fs-6 ms-2' >
@@ -98,7 +98,7 @@ export default class Home extends Component {
                       </Col>
 
                       {/* COMMENT */}
-                      <Col className='text-center effect'>
+                      <Col className='text-center'>
                         <span className="fs-4 icon-posts">
                           <BsChat />
                           <span className='fs-6 ms-2'>{this.state.coments}</span>
@@ -106,12 +106,12 @@ export default class Home extends Component {
                       </Col>
 
                       {/* SHARE */}
-                      <Col className='text-center effect'>
+                      <Col className='text-center'>
                         <span className="fs-4 icon-posts"><BsShare /></span>
                       </Col>
 
                       {/* SIMPAN */}
-                      <Col className='text-center effect'>
+                      <Col className='text-center'>
                         <span className="fs-4 icon-posts" onClick={() => this.simpan(this.state.nama)}>
                           {this.state.flag2 ? <BsBookmark /> : < BsFillBookmarkCheckFill />}
                         </span>
